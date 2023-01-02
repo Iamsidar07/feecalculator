@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header';
+import PayPalFeeCalculator from './components/PayPalFeeCalculator';
+import StripeFeeCalculator from './components/StripeFeeCalculator';
+import Footer from './components/Footer';
+import Privacy from './Privacy';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import About from './About';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <BrowserRouter>
+        <Header/>
+        <Routes>
+          <Route path={"/stripefeecalculator"} element={< StripeFeeCalculator />}/>
+          <Route path={"/paypalfeecalculator"} element={< PayPalFeeCalculator />}/>
+          <Route path={"/privacyandpolicy"} element={<Privacy/>}/>
+          <Route path={"/about"} element={<About/>}/>
+          <Route path={"/"} element={< PayPalFeeCalculator/>}/>
+        </Routes>
+        <Footer/>
+      </BrowserRouter>
+      {/* header  */}
+    
+      {/* feeCalculator  */}
+      {/* <BmiCalculator /> */}
+  
+      {/* footer  */}
     </div>
   );
 }
