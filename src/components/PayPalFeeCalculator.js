@@ -18,7 +18,7 @@ const PayPalFeeCalculator = () => {
                 <h1 className='text-2xl my-5 text-center text-[#D09CFA] '>Welcome to Paypal fee Calculator 🦄</h1>
                 <hr />
                 <div className="mb-3 py-3 space-y-5 md:space-y-0 flex flex-col md:flex-row  items-center justify-center  ">
-                    <input type="number" placeholder="Enter amount in $" className="px-3 py-5 placeholder-slate-300 text-slate-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full max-w-md" value={amount}
+                    <input type="number" placeholder="Enter amount in $" className="px-3 py-3 placeholder-slate-300 text-slate-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full max-w-md" value={amount}
                         onChange={(e) => setAmount(e.target.value)} />
                     <div className='flex items-center justify-center'>
                         <button className="text-pink-500 border border-pink-500 hover:bg-pink-500 hover:text-white active:bg-pink-600 font-bold uppercase text-sm px-6 py-3 rounded outline-none focus:outline-none ml-2 mb-1 ease-linear transition-all duration-150" type="button"
