@@ -68,11 +68,11 @@ const StripeFeeCalculator = () => {
 
             {/* add  */}
 
-            <div id='stepstocalculatepaypalfee' className='px-2 py-3 my-5 bg-slate-50 shadow max-w-7xl mx-auto rounded '>
+            <div id='stepstocalculatepaypalfee' className='px-2 py-3 my-5 bg-slate-50 shadow max-w-7xl mx-auto rounded space-y-3'>
                 <h3 className='text-xl font-semibold text-center text-[#D09CFA]'>Steps to Calculate Stripe fee 🪜</h3>
                 <hr />
                 <h4 className='my-2 text-lg'>Calculating Stripe fee involves two parts - a fixed fee and a variable fee. Here are the steps to calculate the Stripe fee:</h4>
-                <ol className='py-2'>
+                <ol className='py-2 space-y-2'>
                     <li className='text-lg '> 1. Determine the transaction amount: Enter the transaction amount in dollars in the input box labeled "Enter amount.</li>
                     <li className='text-lg '>2. Calculate the fixed fee: Stripe charges a fixed fee of 30 cents per transaction. To calculate the fixed fee, simply add 30 cents to the transaction amount.</li>
                     <li className='text-lg '>3. Calculate the variable fee: Stripe charges a variable fee of 2.9% of the transaction amount. To calculate the variable fee, multiply the transaction amount by 2.9% (or 0.029).</li>

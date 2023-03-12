@@ -68,13 +68,13 @@ const PayPalFeeCalculator = () => {
 
             {/* add  */}
 
-            <div id='stepstocalculatepaypalfee' className='px-2 py-3 my-5 bg-slate-50 shadow max-w-7xl mx-auto rounded '>
+            <div id='stepstocalculatepaypalfee' className='px-2 py-3 my-5 bg-slate-50 shadow max-w-7xl mx-auto rounded space-y-3'>
                 <h2 className='text-xl font-semibold text-center text-[#D09CFA]'>Steps to Calculate Paypal fee 🪜</h2>
                 <hr />
                 <h3 className='text-lg'>PayPal is a popular online payment system that allows individuals and businesses to send and receive money electronically. When you use PayPal to receive payments, PayPal charges a fee for their services. Here are the steps to calculate the PayPal fee:</h3>
                 <hr />
 
-                <ol className='py-2'>
+                <ol className='py-2 space-y-2'>
                     <li className='text-lg '> 1. Enter the amount (in $) in the input box labeled Enter amount. This is the amount of money you will be receiving through PayPal.</li>
                     <li className='text-lg '>2. Click the Calculate button. This will calculate the PayPal fee based on the entered amount.</li>
                     <li className='text-lg '>3. If you need to reset the amount, click the Reset button. This will clear the input box and allow you to enter a new amount.</li>
