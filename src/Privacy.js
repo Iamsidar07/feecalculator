@@ -5,7 +5,7 @@ const Privacy = () => {
     <div className='bg-slate-100 p-3 text-center max-w-2xl mx-auto my-2'>
           <h1 className='text-xl my-2 text-[#A555EC]'>Privacy Policy for paypalfeecalculator</h1>
 
-          <p>At paypalfeecalculator, accessible from http://paypalfeecalculator.online/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by paypalfeecalculator and how we use it.</p>
+          <p>At paypalfeecalculator, accessible from https://feecalculator.online/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by paypalfeecalculator and how we use it.</p>
 
           <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
 
